@@ -124,6 +124,7 @@ html{
     width: 80%;
     height: 15vh;
     border-radius: 5px;
+    overflowY: scroll;
 }
 
 #seção1{
