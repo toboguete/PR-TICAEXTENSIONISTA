@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+
+html{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#backgroundimgdiv{
+    width: 100%;
+    height: 15vh;
+    border-style: solid;
+    border-width: 0px;
+    background-image: url(Images/bgimgmainpagesimbolo.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hrheader{
+    width: 100%;
+    border-style: solid;
+}
+
+#apresentação{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#ap1div h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#ap1pdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20;
+    height: 25vh;
+    border-style: solid;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+#ap1pdiv img{
+    width: 100%;
+    height: 25vh;
+}
+
+#ap1div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#appardiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    text-align: center;
+}
+
+#appardiv p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#mainintro{
+    border-top: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(to bottom, lightgray, white);
+    width: 100%;
+}
+
+
+
+
+#containterseções{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+#seção1, #seção2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    padding: 1%;
+    width: 80%;
+    height: 15vh;
+    border-radius: 5px;
+}
+
+#seção1{
+    animation-name: fadeinfromleft;
+    animation-duration: 2s;
+}
+
+#seção2{
+    animation-name: fadeinfromright;
+    animation-duration: 2s;
+}
+
+@keyframes fadeinfromleft{
+    0%{opacity: 0;
+    transform: translateX(200px);}
+    100%{opacity: 1;
+    transform: translateX(0);}
+}
+
+@keyframes fadeinfromright{
+    0%{opacity: 0;
+        transform: translateX(-200px);}
+        100%{opacity: 1;
+        transform: translateX(0);}
+
+}
+
+#seçõeshr{
+    width: 95%;
+    border-top: solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#containteracoes{
+    border-top: solid;
+    border-width: 2px;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+}
+
+
+#interacoes{
+    padding: 1%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 85%;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+
+#subcontainteracoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#acoesnegativas, #acoespositivas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    background-color: white;
+    padding: 1%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    width: 33%;
+    height: 35vh;
+    overflow-y: scroll;
+    text-align: center;
+    border-radius: 5px;
+    animation-name: fadeintotop;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fadeintotop{
+    0%{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#containermelhoria{
+    padding: 1%;
+    border-top: solid;
+    width: 100%;
+}
+
+#pmelhorialinha{
+    padding: 1%;
+    border-left: solid;
+}
+
+#intromelhoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+
+
+#listasugestões{
+    display: flex;
+    flex-direction: column;
+}
+
+.sugestãohr{
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#containerinteratividade{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0%;
+    gap: 2%;
+}
+
+#fontes{
+    border-width: 2px;
+    border-radius: 10px;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#conhecimentohr{
+    width: 90%;
+}
+
+#forms{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 2px;
+    width: 60%;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#forms hr{
+    width: 90%;
+}
+
+#pandimg{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes pulse{
+    50%{transform: scale(1.2, 1.2);}
+}
+
+
+
+#saibamaiscontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+#blocodesenvolvimento{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: 2%;
+    border-radius: 15px;
+    width: 50%;
+}
+
+#blocodesenvolvimento h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#footerimgdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+#footerimgdiv img:hover{
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+
+
+
+
+
+#footerend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: lightgray;
+    border-style: solid;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
